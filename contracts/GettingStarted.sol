@@ -3,7 +3,7 @@ pragma solidity ^0.8.19;
 
 contract GettingStarted {
 
-    bool publi isOwner = true;
+    bool public isOwner = true;
 
     function getVar() public view returns(bool) {
         return isOwner;
